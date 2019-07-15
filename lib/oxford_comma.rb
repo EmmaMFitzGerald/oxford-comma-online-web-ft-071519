@@ -6,6 +6,9 @@ def oxford_comma(array)
   elsif array.length == 3
     last_string = array.pop
     array.join(", ")<< ", and #{last_string}"
+  else
+    last_string = array.pop
+    array.join(", ")<< ", and #{last_string}"
   end
 end
 
